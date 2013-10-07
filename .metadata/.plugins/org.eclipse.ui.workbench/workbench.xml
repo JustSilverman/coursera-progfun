@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="26" version="2.0">
 <workbenchAdvisor/>
-<window height="1296" width="2298" x="21" y="56">
+<window height="1090" maximized="true" width="2298" x="21" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -35,13 +35,13 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Main.scala" partName="Main.scala" path="/Users/justinsilverman/projects/coursera-classes/functional-programming-scala/assignments/recfun/src/main/scala/recfun/Main.scala" title="Main.scala" tooltip="recfun/src/main/scala/recfun/Main.scala" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/recfun/src/main/scala/recfun/Main.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1013" selectionTopPixel="0"/>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="TweetSet.scala" partName="TweetSet.scala" path="/Users/justinsilverman/projects/coursera-classes/functional-programming-scala/assignments/objsets/src/main/scala/objsets/TweetSet.scala" title="TweetSet.scala" tooltip="objsets/src/main/scala/objsets/TweetSet.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/objsets/src/main/scala/objsets/TweetSet.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4467" selectionTopPixel="1828"/>
 </editor>
-<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="BalanceSuite.scala" partName="BalanceSuite.scala" path="/Users/justinsilverman/projects/coursera-classes/functional-programming-scala/assignments/recfun/src/test/scala/recfun/BalanceSuite.scala" title="BalanceSuite.scala" tooltip="recfun/src/test/scala/recfun/BalanceSuite.scala" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/recfun/src/test/scala/recfun/BalanceSuite.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="scala.tools.eclipse.ScalaSourceFileEditor" name="TweetSetSuite.scala" partName="TweetSetSuite.scala" path="/Users/justinsilverman/projects/coursera-classes/functional-programming-scala/assignments/objsets/src/test/scala/objsets/TweetSetSuite.scala" title="TweetSetSuite.scala" tooltip="objsets/src/test/scala/objsets/TweetSetSuite.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/objsets/src/test/scala/objsets/TweetSetSuite.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="695" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -51,7 +51,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (2 items)"/>
+<category IMemento.internal.id="Errors (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -100,7 +100,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="scala.tools.eclipse.ScalaSourceFileEditor" activePerspective="org.scala-ide.sdt.core.perspective">
+<perspectives activePart="org.eclipse.jdt.junit.ResultView" activePerspective="org.scala-ide.sdt.core.perspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="scala.tools.eclipse.PerspectiveFactory" id="org.scala-ide.sdt.core.perspective" label="Scala"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -160,7 +160,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="explorer"/>
-<info folder="true" part="problems" ratio="0.74963397" ratioLeft="512" ratioRight="171" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="problems" ratio="0.70359284" ratioLeft="705" ratioRight="297" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.jdt.junit.ResultView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -189,32 +189,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/recfun/src/main/scala/recfun/Main.scala"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/recfun/src/test/scala/recfun/BalanceSuite.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/objsets/src/main/scala/objsets/TweetSet.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/objsets/src/test/scala/objsets/TweetSetSuite.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/funsets/src/main/scala/funsets/FunSets.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/funsets/src/main/scala/funsets/FunSets.scala"/>
 </editors>
-<item historyLabel="Main.scala" index="0">
-<position info="not_deleted" x="39" y="4"/>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="3746" y="0"/>
 </item>
-<item historyLabel="BalanceSuite.scala" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
 </item>
-<item historyLabel="Main.scala" index="0">
-<position info="not_deleted" x="39" y="4"/>
-</item>
-<item historyLabel="Main.scala" index="0">
-<position info="not_deleted" x="1062" y="0"/>
-</item>
-<item historyLabel="Main.scala" index="0">
+<item historyLabel="TweetSet.scala" index="0">
 <position/>
 </item>
-<item historyLabel="Main.scala" index="0">
-<position info="not_deleted" x="905" y="0"/>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
 </item>
-<item historyLabel="BalanceSuite.scala" index="1">
+<item historyLabel="TweetSet.scala" index="0">
+<position/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="4213" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="4190" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="4198" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="4198" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="2107" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="2107" y="0"/>
+</item>
+<item historyLabel="FunSets.scala" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="Main.scala" index="0">
-<position info="not_deleted" x="1062" y="0"/>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="2107" y="0"/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="3746" y="0"/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="2107" y="0"/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="4233" y="0"/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="4233" y="0"/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position/>
+</item>
+<item historyLabel="FunSets.scala" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="4113" y="0"/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="4113" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="2107" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="3746" y="0"/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="4319" y="0"/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="4319" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="4380" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position/>
+</item>
+<item historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="TweetSet.scala" index="0">
+<position info="not_deleted" x="4467" y="0"/>
+</item>
+<item active="true" historyLabel="TweetSetSuite.scala" index="1">
+<position info="not_deleted" x="695" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -233,6 +361,24 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="FunSets.scala" tooltip="funsets/src/main/scala/funsets/FunSets.scala">
+<persistable path="/funsets/src/main/scala/funsets/FunSets.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="TweetSetSuite.scala" tooltip="objsets/src/test/scala/objsets/TweetSetSuite.scala">
+<persistable path="/objsets/src/test/scala/objsets/TweetSetSuite.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="TweetSet.scala" tooltip="objsets/src/main/scala/objsets/TweetSet.scala">
+<persistable path="/objsets/src/main/scala/objsets/TweetSet.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="FunSetSuite.scala" tooltip="funsets/src/test/scala/funsets/FunSetSuite.scala">
+<persistable path="/funsets/src/test/scala/funsets/FunSetSuite.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Main.scala" tooltip="funsets/src/main/scala/funsets/Main.scala">
+<persistable path="/funsets/src/main/scala/funsets/Main.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="CountChangeSuite.scala" tooltip="recfun/src/test/scala/recfun/CountChangeSuite.scala">
+<persistable path="/recfun/src/test/scala/recfun/CountChangeSuite.scala"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="BalanceSuite.scala" tooltip="recfun/src/test/scala/recfun/BalanceSuite.scala">
 <persistable path="/recfun/src/test/scala/recfun/BalanceSuite.scala"/>
 </file>
